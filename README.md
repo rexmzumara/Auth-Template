@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Authentication System
 
-## Getting Started
+A modern web application featuring a user-friendly authentication system built with **React**. This application allows users to securely sign in or create a new account using a clean, responsive interface.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design**: Dynamic authentication forms that switch between Sign In and Sign Up modes.
+- **Form Handling and Validation**: Efficiently manages form state and validation using **React Hook Form**.
+- **Password Visibility Toggle**: Allows users to view or hide their passwords while entering them.
+- **Dynamic Buttons**: Submit button text changes based on the authentication mode.
+- **Easy Toggle Between Modes**: Seamlessly switch between signing in and signing up.
+- **API Integration**: Submit user data to a backend for authentication (e.g., login and account creation).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **React**: JavaScript library for building user interfaces.
+- **React Hook Form**: Library for managing forms and validation.
+- **Lucide React**: Icon library for modern UI components.
+- **CSS Modules / Tailwind CSS**: Styling solutions for a responsive and modern design.
+- **Node.js / Express** (Optional): Backend server for handling authentication (if applicable).
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
